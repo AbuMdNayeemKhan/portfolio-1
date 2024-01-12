@@ -2,10 +2,20 @@
     display: none;
 }
 @media (max-width: 576px){
-    .skills-container{
+    .skills-container, .resume-container{
         flex-direction: column;
     }
     .what-i-do{
         padding: 20px;
     }
+    footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+}
+@media (max-width: 960px){
+
 }
