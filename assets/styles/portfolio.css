@@ -1,0 +1,279 @@
+/* ====================FONTS START==================== */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* ====================FONTS START==================== */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.btn-primary{
+    font-family: Open Sans;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    color: #FFFFFF;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 36px;
+}
+
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+}
+
+/* ====================NAV START==================== */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 220px;
+}
+
+header nav h3{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+header nav h3 span{
+    color: #FD6E0A;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+header nav ul li a{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* ====================NAV ENDED==================== */
+
+/* ====================HEADER START==================== */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+.banner{
+    padding: 100px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-greeting{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+p{
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166.667%;
+    margin-bottom: 30px;
+}
+/* ====================HEADER ENDED==================== */
+
+/* ====================ABOUT SECTION START==================== */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
+}
+.what-i-do{
+    padding: 30px 150px;
+}
+/* ====================ABOUT SECTION ENDED==================== */
+
+/* ====================WHAT I DO START==================== */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: center;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-container img{
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.skill-title{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 25px;
+    line-height: normal;
+}
+.skill-description{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+}
+/* ====================WHAT I DO ENDED==================== */
+
+/* ====================RESUME START==================== */
+.resume-column-title{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-institute{
+    margin: 20px 0 0 0;
+}
+
+.resume-item-description, .resume-item-institute{
+    color: #757575;
+}
+
+.resume-item-title{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.resume-container hr{
+    margin: 30px 0;
+}
+
+.download-cv{
+    text-align: center;
+    margin-bottom: 50px;
+}
+/* ====================RESUME ENDED==================== */
+
+/* ====================FOOTER START==================== */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.footer-column h3{
+    text-align: left;
+}
+
+.footer-column p{
+    text-align: left;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 175%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+/* ====================FOOTER ENDED==================== */
